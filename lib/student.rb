@@ -1,11 +1,11 @@
 class Student < User
-  @@knowledge = []
+  @knowledge = []
 
-  def learning(knowledge)
-    @@knowledge << knowledge
+  def learn(knowledge)
+    @knowledge << knowledge
   end
 
   def knowledge
-    @@knowledge
+    @knowledge
   end
 end
